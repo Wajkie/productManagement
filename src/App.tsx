@@ -8,9 +8,10 @@ import UnauthorizedPage from "./pages/UnauthorizedPage"
 import RegisterPage from "./pages/RegisterPage"
 import LoginPage from "./pages/LoginPage"
 import IndexPage from "./pages/IndexPage"
+import FooterComp from "./components/FooterComp"
 
 function App() {
-	const [isLoggedIn, setIsloggedIn] = useState<string | false>(false);
+	const [isLoggedIn, setIsloggedIn] = useState<string | false>("false");
 	const handleLogin = (data: string) => {
 		if (data === "false") {
 			setIsloggedIn(false)
@@ -37,6 +38,7 @@ function App() {
 				<Route path="/*" element={<NotFoundPage />} />
 
 			</Routes>
+			<FooterComp />
 		</>
 	)
 }
