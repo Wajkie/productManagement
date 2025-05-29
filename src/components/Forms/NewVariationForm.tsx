@@ -19,7 +19,7 @@ const NewVariationForm: React.FC<NewVariationFormProps> = ({ handleSubmit }) => 
             value: uuidv4(),
             label: inputVariationLabel.trim(),
         };
-        setVariations([newVariation,]);
+        setVariations((prev) => [newVariation, ...prev]);
         setInputVariationLabel("");
     }
     const submitNewVariation = (e: React.FormEvent) => {
