@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import type { NewUser } from '../../types/userType';
-import { Form, Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 type NewUserFormProps = {
     logInUser: (newUser: NewUser) => void;
 }
