@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import type { NewUser } from '../types/userType';
+import type { NewUser } from '../../types/userType';
 import { Form, Button } from 'react-bootstrap';
 type NewUserFormProps = {
     submitNewUser: (newUser: NewUser) => void;

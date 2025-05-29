@@ -1,7 +1,7 @@
 import React from 'react'
 import { LoginUser } from '../services/user_API'
 import type { NewUser } from '../types/userType'
-import LoginUserForm from '../components/LoginUserForm'
+import LoginUserForm from '../components/Forms/LoginUserForm'
 type LoginPageProps = {
     loggedIn: (userName: string) => void;
 }

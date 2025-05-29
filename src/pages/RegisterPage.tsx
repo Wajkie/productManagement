@@ -1,5 +1,5 @@
 import React from 'react'
-import NewUserForm from '../components/NewUserForm'
+import NewUserForm from '../components/Forms/NewUserForm'
 import { RegisterUser } from '../services/user_API'
 import type { NewUser } from '../types/userType'
 

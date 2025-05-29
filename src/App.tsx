@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router"
 import DummyPage from "./pages/DummyPage"
 import NotFoundPage from "./pages/NotFoundPage"
-import Navigation from "./components/Navigation"
+import Navigation from "./components/Layout/Navigation"
 import "./assets/styles/main.scss"
 import { useState } from "react"
 import UnauthorizedPage from "./pages/UnauthorizedPage"
 import RegisterPage from "./pages/RegisterPage"
 import LoginPage from "./pages/LoginPage"
 import IndexPage from "./pages/IndexPage"
-import FooterComp from "./components/FooterComp"
+import FooterComp from "./components/Layout/FooterComp"
 
 function App() {
 	const [isLoggedIn, setIsloggedIn] = useState<string | false>("false");

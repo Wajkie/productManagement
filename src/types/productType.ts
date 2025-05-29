@@ -26,3 +26,5 @@ export type Product = {
     createdAt?: string;           // Skapandedatum (ISO)
     updatedAt?: string;           // Uppdateringsdatum (ISO)
 };
+
+export type NewProduct = Omit<Product, "id">
