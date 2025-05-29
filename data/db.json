@@ -1,6 +1,13 @@
 {
-    "suppliers": [],
-    "variations": [],
-    "products": [],
-    "deliveries": []
+  "suppliers": [],
+  "variations": [],
+  "products": [],
+  "deliveries": [],
+  "users": [
+    {
+      "id": "ec2f",
+      "username": "wajkie",
+      "password": "haaaaasssee"
+    }
+  ]
 }
